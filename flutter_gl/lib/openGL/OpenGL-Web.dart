@@ -1,4 +1,5 @@
 import 'dart:ui' as ui;
+import 'dart:ui_web' as ui_web;
 import 'dart:html';
 
 import './OpenGL-Base.dart';
@@ -43,7 +44,8 @@ class OpenGLWeb extends OpenGLBase {
 
     this.element = domElement;
 
-    ui.platformViewRegistry.registerViewFactory(divId, (int viewId) {
+    // Register the platform view using the new dart:ui_web API
+    ui_web.platformViewRegistry.registerViewFactory(divId, (int viewId) {
       return domElement;
     });
   }
