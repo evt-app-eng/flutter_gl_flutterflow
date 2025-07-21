@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:html';
 import 'package:flutter/material.dart';
-import 'package:flutter_gl_platform_interface/flutter_gl_platform_interface.dart';
+import 'package:flutter_gl_platform_interface_flutterflow/flutter_gl_platform_interface.dart';
 
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 

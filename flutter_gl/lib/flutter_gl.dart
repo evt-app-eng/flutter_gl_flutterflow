@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_gl_platform_interface/flutter_gl_platform_interface.dart';
+import 'package:flutter_gl_platform_interface_flutterflow/flutter_gl_platform_interface.dart';
 
 import 'openGL/OpenGL.dart';
 export './openGL/OpenGL.dart';

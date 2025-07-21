@@ -11,13 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_gl_platform_interface_flutterflow: ^0.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.4
-  flutter_gl_platform_interface_flutterflow:
-    path: ../flutter_gl_platform_interface
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

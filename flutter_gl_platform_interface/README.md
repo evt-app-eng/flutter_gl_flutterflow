@@ -1,7 +1,14 @@
-# flutter_gl_platform_interface
+# flutter_gl_platform_interface_flutterflow
 
-platform interface implementation of flutter_gl, cross-platform call OpenGL API by Dart through dart:ffi. Provides OpenGL with Texture Widget on Flutter. 
+Platform interface for flutter_gl_flutterflow. Fixed platformViewRegistry deprecation for Flutter 3.32.4+ compatibility.
 
+Cross-platform OpenGL API access through dart:ffi with Texture Widget support on Flutter.
 
-[flutter_gl](https://github.com/wasabia/flutter_gl)
+## Features
+- ✅ Fixed platformViewRegistry deprecation for Flutter 3.32.4+
+- ✅ Cross-platform OpenGL ES API similar to WebGL
+- ✅ Platform interface for consistent API across implementations
+
+## Repository
+[flutter_gl_flutterflow](https://github.com/evt-app-eng/flutter_gl_flutterflow)
 

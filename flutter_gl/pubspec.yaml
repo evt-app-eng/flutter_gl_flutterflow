@@ -11,14 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_gl_platform_interface_flutterflow:
-    path: ../flutter_gl_platform_interface
-  flutter_gl_web_flutterflow:
-    path: ../flutter_gl_web
-  flutter_gl_macos_flutterflow:
-    path: ../flutter_gl_macos
-  flutter_gl_windows_flutterflow:
-    path: ../flutter_gl_windows
+  flutter_gl_platform_interface_flutterflow: ^0.0.5
+  flutter_gl_web_flutterflow: ^0.0.6
+  flutter_gl_macos_flutterflow: ^0.0.6
+  flutter_gl_windows_flutterflow: ^0.0.5
   ffi: ^2.0.1
 
 dev_dependencies:
