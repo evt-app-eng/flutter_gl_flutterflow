@@ -27,7 +27,7 @@ class OpenGLES extends OpenGLBase {
 
   late LibOpenGLES _libOpenGLES;
   late LibEGL _libEGL;
-  dynamic? _gl;
+  dynamic _gl;
 
   dynamic get gl {
     _gl ??= getContext({"gl": _libOpenGLES});
@@ -76,8 +76,8 @@ class OpenGLES extends OpenGLBase {
     } else if (Platform.isIOS || Platform.isMacOS || Platform.isWindows) {
       // var _d = egl.eglTest();
       // print("makeCurrent egl test ${_d} ");
-      var _result = egl.makeCurrent(_context);
-      // print("ios makeCurrent _result: ${_result} ");
+      egl.makeCurrent(_context);
+      // Result not used - removed unused variable
     } else {
       throw (" OpenGL-ES.makeCurrent ${Platform.operatingSystem} is not support yet ");
     }
