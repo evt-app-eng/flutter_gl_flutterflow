@@ -286,7 +286,7 @@ class OpenGLContextES extends OpenGL30Constant {
     int _type = type.value;
     String _name = name.cast<Utf8>().toDartString();
     int _size = size.value;
-    int _length = length.value;
+    // int _length = length.value; // Unused variable removed
 
     calloc.free(type);
     calloc.free(name);
@@ -307,7 +307,7 @@ class OpenGLContextES extends OpenGL30Constant {
     int _type = type.value;
     String _name = name.cast<Utf8>().toDartString();
     int _size = size.value;
-    int _length = length.value;
+    // int _length = length.value; // Unused variable removed
 
     calloc.free(type);
     calloc.free(name);
@@ -866,7 +866,7 @@ class OpenGLContextES extends OpenGL30Constant {
     int _type = type.value;
     String _name = name.cast<Utf8>().toDartString();
     int _size = size.value;
-    int _length = length.value;
+    // int _length = length.value; // Unused variable removed
 
     calloc.free(type);
     calloc.free(name);
